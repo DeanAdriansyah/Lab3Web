@@ -85,8 +85,6 @@ if ($koneksi == false) {
 // var_dump($koneksi);
 ```
 
-Buka melalui browser untuk menguji koneksi database (untuk menyampilkan pesan koneksi berhasil,
-uncomment pada perintah echo “koneksi berhasil”;
 
 ## Membuat file index untuk menampilkan data (Read)
 Buat file baru dengan nama *index.php*
@@ -193,6 +191,7 @@ $result = mysqli_query($koneksi, $query);
 
 ![menambahkan_gambar](README_img/index.png)
 
+
 ## Menambah Data (Create)
 Buat file baru dengan nama tambah.php
 
@@ -295,6 +294,7 @@ Buat file baru dengan nama tambah.php
 ```
 
 ![menambahkan_gambar](README_img/tambah.png)
+
 
 ## Mengubah Data (Update)
 Buat file baru dengan nama ubah.php
@@ -416,6 +416,7 @@ Buat file baru dengan nama ubah.php
 
 ![menambahkan_gambar](README_img/ubah.png)
 
+
 ## Menghapus Data (Delete)
 Buat file baru dengan nama hapus.php
 
@@ -429,4 +430,5 @@ header('location: index.php');
 ?>
 ```
 
+---
 # <P align="center"> THANK YOU SO MUCH FOR YOUR ATTENTION!! SEE YOU!!
